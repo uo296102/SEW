@@ -1,2 +1,17 @@
 /* datos personales Moisés Montes Iglesias - uo296102 */
 /* Estilos generales del proyecto MotoGP-Desktop */
+
+body {
+    font-family: "Calibri", Arial, sans-serif;
+    background-color: #f4ebd0;
+}
+
+h1,h2,nav {
+    color: #b68d40
+}
+
+header {
+    color: #d6ad60 
+}
+
+
