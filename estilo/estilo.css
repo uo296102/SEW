@@ -1,17 +1,52 @@
 /* datos personales Moisés Montes Iglesias - uo296102 */
 /* Estilos generales del proyecto MotoGP-Desktop */
 
+/*Selector specificity: (0,0,1)*/
 body {
+    /* No hay problema con el color, porque coge el color negro por defecto, esta comprobado y verificado */
+    /*color: #000*/
     font-family: "Calibri", Arial, sans-serif;
     background-color: #f9f1f0;
 }
 
-h1, h2, nav {
+h1, nav {
+    /* No hay problema con el background-color, porque lo hereda y esta comprobado y verificado */
+    /*background-color: #f9f1f0;*/
     color: #145da0;
 }
 
-header {
+nav[aria-label="miga-de-pan"] > p > strong {
+    font-size: 0.9rem;
+    color: #ff0000;
+}
+
+header, header a{
+    text-decoration-line: none;
+    color: #145da0;
+}
+
+header nav > a {
+    font-size: 1rem;
     color: #d6ad60;
+}
+a.active {
+    color: #ff0000;
 }
 
 
+/* 
+    Ej 4: text-decoration-line=none --> Implica quitar la linea de debajo de los enlaces
+    Ejemplo: 
+    header a {
+        -----
+        -----
+        -----
+    }
+*/
+
+/*
+    Ej 5: header {
+        display.flex;
+        flex-direction.raw; --> o flex-direction : raw; 
+    }
+*/
