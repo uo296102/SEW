@@ -27,10 +27,10 @@ header, header a{
 
 header nav > a {
     font-size: 1rem;
-    color: #FFD700;
+    color: #b57c00;
 }
 a.active {
-    color: #FFD700;
+    color: #b57c00;
 }
 
 
