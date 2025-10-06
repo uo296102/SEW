@@ -30,7 +30,7 @@ Video, audio {
 
 @media (min-width: 320px) and (max-width: 799px) { /*Se cambia a lo de dentro cuando se cumpla la condicion*/
     header {
-        flex-direction: column; /*Redefinición de display*/
+        flex-direction: column; /*Redefinición de flex-direction*/
         align-items: center; /*Redefinición de align-items*/
     }
 
